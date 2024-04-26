@@ -11,21 +11,19 @@ export default function Header() {
   return (
     <Navbar bg="dark" data-bs-theme="dark">
     <Container>
-
         <img
           src={img}
           alt="Imagen de perfil"
-          style={{ width: '40px',height: '40px', borderRadius: '50%', margin: '10px' }} // Estilo para la imagen de perfil
+          style={{ width: '30px',height: '30px', borderRadius: '50%', margin: '10px' }} // Estilo para la imagen de perfil
         />
-      
-      <Navbar.Brand href="#home">Elison Corrales Vargas</Navbar.Brand>
+      <Navbar.Brand href="">Elison Corrales Vargas</Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#bibliography">Bibliography </Nav.Link>
-        <Nav.Link href="#Skills">Skills</Nav.Link>
-        <Nav.Link href="#projects">Projects</Nav.Link>
-        <Nav.Link href="#education">Education</Nav.Link>
-        <Nav.Link href="#experience">Work Experience</Nav.Link>
-        <Nav.Link href="#contact">Contact me</Nav.Link>
+        <Nav.Link href="/bibliography">Bibliography </Nav.Link>
+        <Nav.Link href="/skills">Skills</Nav.Link>
+        <Nav.Link href="/projects">Projects</Nav.Link>
+        <Nav.Link href="/education">Education</Nav.Link>
+        <Nav.Link href="/experience">Work Experience</Nav.Link>
+        <Nav.Link href="/contact">Contact me</Nav.Link>
       </Nav>
       <Form className="d-flex">
             <Form.Control
