@@ -1,7 +1,8 @@
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header/Header';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Route,  } from 'react-router-dom';
 
 import Bibliography from './Components/Bibliography';
 import Skills from './Components/Skills';
@@ -11,19 +12,18 @@ import Experiencie from './Components/Experiencie';
 import Contact from './Components/Contact';
 
 function App() {
+
+  const [activeTab, setActiveTab] = useState('Bibliography');
+
   return (
     <div className="">
-      <Router>
-        <Header/>
-        <Routes>
-          <Route path='/bibliography' element={<Bibliography/>} />
-          <Route path='/skills' element={<Skills/>} />
-          <Route path='/projects' element={<Projects/>} />
-          <Route path='/education' element={<Education/>} />
-          <Route path='/experience' element={<Experiencie/>} />
-          <Route path='/contact' element={<Contact/>} />
-        </Routes>
-      </Router>
+      <Header activeTab={activeTab} onTabChange={setActiveTab} />
+        { activeTab === 'Bibliography' && <Bibliography />}
+        { activeTab === 'Skills' && <Skills />}
+        { activeTab === 'Projects' && <Projects />}
+        { activeTab === 'Education' && <Education />}
+        { activeTab === 'Experiencie' && <Experiencie />}
+        { activeTab === 'Contact' && <Contact />}
     </div>
   );
 }

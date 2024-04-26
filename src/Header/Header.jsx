@@ -7,35 +7,43 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import img from '../Assets/PerfilPhoto.jpg';
 
-export default function Header() {
-  return (
-    <Navbar bg="dark" data-bs-theme="dark">
-    <Container>
-        <img
-          src={img}
-          alt="Imagen de perfil"
-          style={{ width: '30px',height: '30px', borderRadius: '50%', margin: '10px' }} // Estilo para la imagen de perfil
-        />
-      <Navbar.Brand href="">Elison Corrales Vargas</Navbar.Brand>
-      <Nav className="me-auto">
-        <Nav.Link href="/bibliography">Bibliography </Nav.Link>
-        <Nav.Link href="/skills">Skills</Nav.Link>
-        <Nav.Link href="/projects">Projects</Nav.Link>
-        <Nav.Link href="/education">Education</Nav.Link>
-        <Nav.Link href="/experience">Work Experience</Nav.Link>
-        <Nav.Link href="/contact">Contact me</Nav.Link>
-      </Nav>
-      <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
+export default function Header( { activeTab, onTabChange }) {
+    return (
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <img
+              src={img}
+              alt="Imagen de perfil"
+              style={{ width: '30px', height: '30px', borderRadius: '50%', margin: '10px' }}
             />
-            <Button variant="outline-success">Search</Button>
-          </Form>
-    </Container>
-    </Navbar>
- 
-  )
+            <Navbar.Brand href="">
+              Elison Corrales Vargas
+            </Navbar.Brand>
+            <Nav className="me-auto">
+              <Nav.Link onClick={() => onTabChange('Bibliography')} active={activeTab === 'Bibliography'}>
+                Bibliography
+              </Nav.Link>
+              <Nav.Link onClick={() => onTabChange('Skills')} active={activeTab === 'Skills'}>
+                Skills
+              </Nav.Link>
+              <Nav.Link onClick={() => onTabChange('Projects')} active={activeTab === 'Projects'}>
+                Projects
+              </Nav.Link>
+              <Nav.Link onClick={() => onTabChange('Education')} active={activeTab === 'Education'}>
+                Education
+              </Nav.Link>
+              <Nav.Link onClick={() => onTabChange('Experience')} active={activeTab === 'Experience'}>
+                Work Experience
+              </Nav.Link>
+              <Nav.Link onClick={() => onTabChange('Contact')} active={activeTab === 'Contact'}>
+                Contact me
+              </Nav.Link>
+            </Nav>
+            <Form className="d-flex">
+              <Form.Control type="search" placeholder="Search" className="me-2" aria-label="Search" />
+              <Button variant="outline-success"> Search </Button>
+            </Form>
+          </Container>
+        </Navbar>
+      );
 }
