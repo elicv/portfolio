@@ -11,7 +11,7 @@ export default function Bibliography() {
       <Container fluid className='container'>
         <Card style={{ border: 'solid 1px', borderColor: 'gray' }}>
           <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
-            <Card.Img variant="" src={img} style={{ width: '300px', height: '300px', margin: '20px' }} />
+            <Card.Img variant="" src={img} style={{ width: '25%', height: '25%', margin: '20px' }} />
             <Card.Body style={{ textAlign: '' }}>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>BIBLIOGRAPHY</Card.Title>
               <Card.Text style={{ fontFamily: 'Courier', fontSize: 'large', fontWeight: '550', color: '' }}> <span style={{ color: 'purple', fontWeight: '600'}}>print</span>("

@@ -14,7 +14,7 @@ export default function Skills() {
 
         <Row xs={1} sm={2} md={3}>
           <Col className="my-3">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" style={{ width: '100px', height: '100px', margin: '20px' }} />
                 <Card.Body>
@@ -28,7 +28,7 @@ export default function Skills() {
             </Card>
           </Col>
           <Col className="my-3">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" style={{ width: '100px', height: '100px', margin: '20px' }} />
                 <Card.Body>
@@ -42,7 +42,7 @@ export default function Skills() {
             </Card>
           </Col>
           <Col className="my-3">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://gdimg.gmarket.co.kr/1864442788/still/400?ver=1597372311" style={{ width: '100px', height: '100px', margin: '20px' }} />
                 <Card.Body>
@@ -57,7 +57,7 @@ export default function Skills() {
           </Col>
 
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" style={{ width: '100px', height: '100px', margin: '20px' }} />
                 <Card.Body>
@@ -72,7 +72,7 @@ export default function Skills() {
           </Col>
 
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://storage.subs.noventiq.com/public/images/market_setting/logotype/53445/SQL1.png" style={{ width: '150px', height: '90px', margin: '20px' }} />
                 <Card.Body>
@@ -87,7 +87,7 @@ export default function Skills() {
           </Col>
 
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Python_logo_51.svg/1200px-Python_logo_51.svg.png" style={{ width: '150px', height: '90px', margin: '20px' }} />
                 <Card.Body>
@@ -102,7 +102,7 @@ export default function Skills() {
           </Col>
 
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://logowik.com/content/uploads/images/bitbucket9553.jpg" style={{ width: '150px', height: '90px', margin: '20px' }} />
                 <Card.Body>
@@ -117,7 +117,7 @@ export default function Skills() {
           </Col>
 
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://www.codeguru.com/wp-content/uploads/2021/11/ASP-Net-tutorials.jpg" style={{ width: '150px', height: '90px', margin: '20px' }} />
                 <Card.Body>
@@ -131,7 +131,7 @@ export default function Skills() {
             </Card>
           </Col>
           <Col className="my-4">
-            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '25rem' }}>
+            <Card style={{ border: 'solid 1px', borderColor: 'gray', width: '' }}>
               <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
                 <Card.Img variant="" src="https://logowik.com/content/uploads/images/sourcetree1931.jpg" style={{ width: '150px', height: '90px', margin: '20px' }} />
                 <Card.Body>
