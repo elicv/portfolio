@@ -22,7 +22,7 @@ function App() {
         { activeTab === 'Skills' && <Skills />}
         { activeTab === 'Projects' && <Projects />}
         { activeTab === 'Education' && <Education />}
-        { activeTab === 'Experiencie' && <Experiencie />}
+        { activeTab === 'Work Experience' && <Experiencie />}
         { activeTab === 'Contact' && <Contact />}
     </div>
   );
