@@ -13,7 +13,7 @@ import Contact from './Components/Contact';
 
 function App() {
 
-  const [activeTab, setActiveTab] = useState('Skills');
+  const [activeTab, setActiveTab] = useState('Bibliography');
 
   return (
     <div className="">
