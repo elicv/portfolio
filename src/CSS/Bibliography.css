@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+    .contenedor{
+        flex-direction: row !important
+    }
+    .space{
+        justify-content: space-between !important;
+        width: 125vh !important;
+        
+    }
+}
+
+

@@ -3,15 +3,16 @@ import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card';
 import img from '../Assets/PerfilPhoto.jpg';
+import '../CSS/Bibliography.css'
 
 export default function Bibliography() {
   return (
-    <div style={{ margin: '1vh', background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center' }}>
-      <Container>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', marginTop:'20px'}}>
+      <Container fluid className='container'>
         <Card style={{ border: 'solid 1px', borderColor: 'gray' }}>
-          <Container style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center' }}>
+          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
             <Card.Img variant="" src={img} style={{ width: '300px', height: '300px', margin: '20px' }} />
-            <Card.Body>
+            <Card.Body style={{ textAlign: '' }}>
               <Card.Title style={{ color: 'darkgreen', fontFamily: 'cursive' }}>BIBLIOGRAPHY</Card.Title>
               <Card.Text style={{ fontFamily: 'cursive' }}>
                 Hello, my name is Elison Usiel Corrales Vargas, I am a resident of the community of San Joaquín de Cutris,
@@ -31,11 +32,11 @@ export default function Bibliography() {
             </Card.Body>
           </Container>
           <hr style={{ margin: '0 10px' }} />
-          <Container style={{ display: 'flex', justifyContent: 'space-between', padding: '30px' }}>
-            <div>
-              <Card.Title style={{ color: 'darkgreen', fontFamily: 'cursive'}}>Hobbies</Card.Title>
+          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background:'' }} className='contenedor space'>
+            <div style={{ marginBottom: '20px' }}>
+              <Card.Title style={{ color: 'darkgreen', fontFamily: 'cursive' }}>Hobbies</Card.Title>
               <Card.Text>
-                <ul>
+                <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
                   <li>Go fishing</li>
                   <li>Playing video games</li>
                   <li>Play guitar</li>
@@ -44,10 +45,10 @@ export default function Bibliography() {
                 </ul>
               </Card.Text>
             </div>
-            <div>
+            <div style={{ marginBottom: '20px' }}>
               <Card.Title style={{ color: 'darkgreen', fontFamily: 'cursive' }}>Interest</Card.Title>
               <Card.Text>
-                <ul>
+                <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
                   <li>Learn programming languages</li>
                   <li>Improve my English</li>
                   <li>Learn about virtual reality</li>
@@ -58,7 +59,7 @@ export default function Bibliography() {
             <div>
               <Card.Title style={{ color: 'darkgreen', fontFamily: 'cursive' }}>Strengths</Card.Title>
               <Card.Text>
-                <ul>
+                <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
                   <li>Good communication skills</li>
                   <li>Great learning capacity</li>
                 </ul>
