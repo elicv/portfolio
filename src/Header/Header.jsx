@@ -9,13 +9,14 @@ import img from '../Assets/PerfilPhoto.jpg';
 
 export default function Header({ activeTab, onTabChange }) {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754'}}>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754', position:''}}>
             <Container>
                 <img
                     src={img}
                     alt="Imagen de perfil"
                     style={{ width: '30px', height: '30px', borderRadius: '50%', margin: '10px' }}
                 />
+                
                 <Navbar.Brand href="">
                     Elison Corrales Vargas
                 </Navbar.Brand>

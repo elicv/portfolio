@@ -1,0 +1,86 @@
+.fondo2{
+    background-color: black;
+    /* background-image: url("../Assets/Font.jpg") !important; */
+}
+
+.accordion-button{
+    background-color: rgb(16, 89, 55) !important;  
+    color: white !important;
+    box-shadow: none !important ;
+}   
+
+.accordion-button::after {
+    content: "";
+    background-image: url("../Assets/arrow.png") !important  ;
+}
+
+.accordion-item{
+    border:  solid 2px black!important;
+} 
+
+.projectCard{
+    background:  none !important;
+}
+ .accordion-item {
+    border-radius: 8px !important;
+}
+
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800 !important;
+}
+
+
+@media screen and (min-width: 768px) {
+    .contenedor{
+        flex-direction: row !important
+    }
+    .space{
+        justify-content: space-between !important;
+        width: 125vh !important;
+        
+    }
+    .imgInfo{
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .imgGit{
+        width: 5% !important;
+        height: 5% !important;
+    }
+}
+
+
+.accordion-body{
+    max-height:  70vh !important;
+    overflow: auto;
+}
+
+.accordion-body::-webkit-scrollbar {
+    display: none !important;  /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
+  }
+
+body {
+    max-height:  80vh !important;
+    overflow: auto;
+}
+
+body::-webkit-scrollbar {
+    display: none !important;  /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
+}
+
+.imgInfo {
+    margin: 10px ;
+}
+
+.Text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800 !important;
+}
+
+
+.linkGit{
+    color: rgb(16, 89, 55);
+    text-decoration: none;
+    font-size: 1rem;
+}

@@ -5,8 +5,13 @@
     .space{
         justify-content: space-between !important;
         width: 125vh !important;
-        
     }
+
+    .imgSkill{
+        width: 15% !important;
+        height: 15% !important;
+    }
+
 }
 
 li{

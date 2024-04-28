@@ -7,15 +7,21 @@
         width: 125vh !important;
         
     }
+    .imgBibiography{
+        width: 22% !important;
+        height: 22% !important;
+    }
 }
 
 li{
-    font-family: Courier;
-    font-size: large;
-    font-weight: 500;
+    font-family: Courier !important;
+    font-size: large !important;
+    font-weight: 550 !important;
+    
 }
 
 
 .fondo{
-    background-image: url("../Assets/Font.jpg");
+    background-color: black;
+    background-image: url("");
 }

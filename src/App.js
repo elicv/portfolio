@@ -10,6 +10,7 @@ import Projects from './Components/Projects';
 import Education from './Components/Education';
 import Experiencie from './Components/Experiencie';
 import Contact from './Components/Contact';
+import Container from 'react-bootstrap/esm/Container';
 
 function App() {
 
@@ -18,12 +19,14 @@ function App() {
   return (
     <div className="">
       <Header activeTab={activeTab} onTabChange={setActiveTab} />
+      
         { activeTab === 'Bibliography' && <Bibliography />}
         { activeTab === 'Skills' && <Skills />}
         { activeTab === 'Projects' && <Projects />}
         { activeTab === 'Education' && <Education />}
         { activeTab === 'Work Experience' && <Experiencie />}
         { activeTab === 'Contact' && <Contact />}
+      
     </div>
   );
 }
