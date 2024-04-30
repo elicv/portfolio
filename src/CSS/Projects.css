@@ -1,86 +1,134 @@
-.fondo2{
+.fondo2 {
     background-color: black;
     /* background-image: url("../Assets/Font.jpg") !important; */
 }
 
-.accordion-button{
-    background-color: rgb(16, 89, 55) !important;  
+.accordion-button {
+    background-color: rgb(16, 89, 55) !important;
     color: white !important;
-    box-shadow: none !important ;
-}   
+    box-shadow: none !important;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: 550;
+    font-size: large;
+}
 
 .accordion-button::after {
     content: "";
-    background-image: url("../Assets/arrow.png") !important  ;
+    background-image: url("../Assets/arrow.png") !important;
 }
 
-.accordion-item{
-    border:  solid 2px black!important;
-} 
-
-.projectCard{
-    background:  none !important;
+.accordion-item {
+    border: solid 2px black !important;
 }
- .accordion-item {
+
+.projectCard {
+    background: none !important;
+}
+
+.accordion-item {
     border-radius: 8px !important;
 }
 
-h4{
+h4 , h5 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800 !important;
 }
 
 
 @media screen and (min-width: 768px) {
-    .contenedor{
+    .contenedor {
         flex-direction: row !important
     }
-    .space{
+
+    .space {
         justify-content: space-between !important;
         width: 125vh !important;
-        
+
     }
-    .imgInfo{
+
+    .imgInfo {
         width: 50% !important;
         height: 50% !important;
     }
-    .imgGit{
+
+    .imgGit {
+        width: 5% !important;
+        height: 5% !important;
+    }
+
+    .imgUsed {
         width: 5% !important;
         height: 5% !important;
     }
 }
 
 
-.accordion-body{
-    max-height:  70vh !important;
+.bodyScroll0,.bodyScroll1, .bodyScroll2, .bodyScroll3, .bodyScroll4 {
+    max-height: 70vh !important;
     overflow: auto;
+    scroll-behavior: smooth;
 }
 
+
+
 .accordion-body::-webkit-scrollbar {
-    display: none !important;  /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
-  }
+    display: none !important;
+    /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
+}
 
 body {
-    max-height:  80vh !important;
+    max-height: 80vh !important;
     overflow: auto;
 }
 
 body::-webkit-scrollbar {
-    display: none !important;  /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
+    display: none !important;
+    /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
 }
 
 .imgInfo {
-    margin: 10px ;
+    margin: 10px;
 }
 
-.Text{
+.Text {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800 !important;
 }
 
 
-.linkGit{
+.linkGit {
     color: rgb(16, 89, 55);
     text-decoration: none;
     font-size: 1rem;
+}
+
+.imgUsed {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+
+.imgUsed{
+    transition: transform 0.3s ease;
+    /* Agrega una transición suave de 0.3 segundos al cambio de tamaño */
+}
+
+.imgUsed:hover{
+    transform: scale(1.3);
+    /* Escala la imagen al 110% de su tamaño original cuando se hace hover */
+}
+
+.tecnologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardContent{
+    margin-top: 2%;
+    padding: 30px;
+    border-radius: none; 
+    border: solid 1px lightgray;
+    width: 100%;
+    box-shadow: 0.3em 0.3em 1em rgba(80, 79, 79, 0.6);
 }

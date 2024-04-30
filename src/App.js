@@ -11,10 +11,11 @@ import Education from './Components/Education';
 import Experiencie from './Components/Experiencie';
 import Contact from './Components/Contact';
 import Container from 'react-bootstrap/esm/Container';
+import 'animate.css/animate.min.css';
 
 function App() {
 
-  const [activeTab, setActiveTab] = useState('Bibliography');
+  const [activeTab, setActiveTab] = useState('Projects');
 
   return (
     <div className="">
