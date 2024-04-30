@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Container from 'react-bootstrap/esm/Container'
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import img from '../Assets/Arquitectura.png'
 import imgComponent from '../Assets/Componentes.png'
 import imgGIS from '../Assets/GIS.png'
-import TextStyle from './TextStyle';
 import '../CSS/Projects.css'
 
-import { MDBCard, MDBCardBody } from 'mdb-react-ui-kit';
+import {MDBCard} from 'mdb-react-ui-kit';
 
 let timeoutId;
 

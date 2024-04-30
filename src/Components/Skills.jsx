@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/esm/Container'
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+
 
 import '../CSS/Skills.css'
 

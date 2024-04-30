@@ -11,7 +11,7 @@ export default function TextStyle({ typeText , type}) {
             }
         };
         typeText();
-    }, []);
+    }, [fullText]);
     return (
         
         <span>
