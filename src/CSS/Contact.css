@@ -9,6 +9,12 @@
     }
 }
 
+.ContenedorEmail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px !important;
+}
 
 .imgFondo {
     background-image: url("https://img3.wallspic.com/crops/6/0/3/3/6/163306/163306-piton-lenguaje_de_programacion-data-funcion_anonima-lenguaje_de_programacion_de_alto_nivel-3840x2160.png"); 
@@ -17,7 +23,7 @@
     background-repeat: no-repeat;
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
     height: 30vh; /* Ajusta la altura según el viewport */
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .contenedorContact{
@@ -28,11 +34,15 @@
 
 h1, h6{
     font-family: Courier;  
+    
 }
 
 .FormContainer{
-    background-color: lightgray;
-    border-top: solid 5px rgb(25, 135, 84);
+    background-color: white;
+    /* border-top: solid 5px rgb(25, 135, 84); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -50,3 +60,11 @@ h1, h6{
 .formEmail1{
     font-family: 'Courier';
 }
+
+
+.spinner{
+    height: 20px !important;
+    width: 20px !important;
+    margin-left: 5px;
+}
+

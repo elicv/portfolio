@@ -4,7 +4,7 @@
 }
 
 .accordion-button {
-    background-color: rgb(0 13 68) !important; /*rgb(16, 89, 55)*/
+    background-color: rgb(0 47 25) !important; /*rgb(16, 89, 55)*/
     color: white !important;
     box-shadow: none !important;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
@@ -64,7 +64,7 @@ h4 , h5 {
 
 
 .bodyScroll0,.bodyScroll1, .bodyScroll2, .bodyScroll3, .bodyScroll4 {
-    max-height: 70vh !important;
+    max-height: 75vh !important;
     overflow: auto;
     scroll-behavior: smooth;
 }
