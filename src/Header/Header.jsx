@@ -6,7 +6,7 @@ import img from '../Assets/PerfilPhoto.jpg';
 
 export default function Header({ activeTab, onTabChange }) {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754', position:''}}>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754', position:''}} className='NavBarPrincipal'>
             <Container>
                 <img
                     src={img}

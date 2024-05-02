@@ -12,12 +12,12 @@ export default function Bibliography() {
     <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo'>
       <Container fluid className='container'>
         <Card style={{ border: 'solid 1px', borderColor: 'gray' }}>
-          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor'>
+          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor0'>
             <Card.Img variant="" src={img} style={{ width: '50%', height: '50%', margin: '20px' }} className='imgBibiography' />
             <Card.Body style={{ textAlign: '' }}>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>BIBLIOGRAPHY</Card.Title>
               <Card.Text style={{ fontFamily: 'Courier', fontSize: 'large', fontWeight: '550', color: '', height: '' }}>
-                <TextStyle typeText="Hello, my name is Elison Usiel Corrales Vargas, I am a resident of the community of San Joaquin de Cutris, Alajuela, San Carlos. I finished elementary school at the San Joaquin de Cutris School and high school at the Colegio Técnico Profesional Santa Roca.I just finished my university studies at the Tecnológico de Costa Rica (TEC) and I am interested in making myself known so that you can see what I do." type="python" />
+                <TextStyle typeText="Hello, my name is Elison Usiel Corrales Vargas, I am a resident of the community of San Joaquin de Cutris, Alajuela, San Carlos. I finished elementary school at the San Joaquin de Cutris School and high school at the Colegio Técnico Profesional Santa Roca.I just finished my university studies at the Tecnológico of Costa Rica (TEC) and I am interested in making myself known so that you can see what I do." type="python" />
               </Card.Text>
               <Card.Text style={{ fontFamily: 'Courier' }}>
                 <strong>Age: 24 </strong><br />
@@ -31,7 +31,7 @@ export default function Bibliography() {
             </Card.Body>
           </Container>
           <hr style={{ margin: '0 10px' }} />
-          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background: '' }} className='contenedor space'>
+          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background: '' }} className='contenedor0 space'>
             <div style={{ marginBottom: '20px' }}>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Hobbies</Card.Title>
               <Card.Text>

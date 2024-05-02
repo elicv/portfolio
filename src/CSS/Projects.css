@@ -4,7 +4,7 @@
 }
 
 .accordion-button {
-    background-color: rgb(16, 89, 55) !important;
+    background-color: rgb(0 13 68) !important; /*rgb(16, 89, 55)*/
     color: white !important;
     box-shadow: none !important;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
@@ -36,7 +36,7 @@ h4 , h5 {
 
 
 @media screen and (min-width: 768px) {
-    .contenedor {
+    .contenedor1 {
         flex-direction: row !important
     }
 
@@ -132,3 +132,4 @@ body::-webkit-scrollbar {
     width: 100%;
     box-shadow: 0.3em 0.3em 1em rgba(80, 79, 79, 0.6);
 }
+

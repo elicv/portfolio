@@ -4,9 +4,10 @@ import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import imgComponent from '../Assets/Componentes.png'
 import imgGIS from '../Assets/GIS.png'
+import imgTecStore from '../Assets/LogoTecostore.png'
 import '../CSS/Projects.css'
 
-import {MDBCard} from 'mdb-react-ui-kit';
+import { MDBCard } from 'mdb-react-ui-kit';
 
 let timeoutId;
 
@@ -33,7 +34,7 @@ export default function Projects() {
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0" onClick={handleAccordionToggle}>
               <Accordion.Header>LICEO CAMAQUI <i style={{ marginLeft: '10px' }} className="bi bi-mortarboard-fill"></i></Accordion.Header>
-              <Accordion.Body className='bodyScroll0'> 
+              <Accordion.Body className='bodyScroll0'>
                 <Container className='accordionBody'>
                   <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                     <MDBCard className='cardContent animate__animated animate__slideInDown'>
@@ -58,7 +59,7 @@ export default function Projects() {
                   <br />
                   <hr style={{ margin: '0 0px' }} />
                   <br />
-                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor'>
+                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor1'>
                     <img src={imgComponent} alt="" style={{ width: '100%', height: '100%' }} className='imgInfo' />
                     {/* <p className='Text'>Below is an image of the layer diagram in more detail.</p> */}
                   </Container>
@@ -67,7 +68,7 @@ export default function Projects() {
                   <br />
                   <hr style={{ margin: '0 0px' }} />
                   <br />
-                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor' >
+                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor1' >
                     {/* <img src={img} alt="" style={{ width: '100%', height: '100%' }} className='imgInfo' /> */}
 
                     <p className='Text'>
@@ -167,7 +168,7 @@ export default function Projects() {
                   <br />
                   <hr style={{ margin: '0 0px' }} />
                   <br />
-                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor'>
+                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor1'>
                     <img src={imgGIS} alt="" style={{ width: '100%', height: '100%' }} className='imgInfo' />
                     {/* <p className='Text'>Below is an image of the layer diagram in more detail.</p> */}
                   </Container>
@@ -187,25 +188,70 @@ export default function Projects() {
             <Accordion.Item eventKey="3" onClick={handleAccordionToggle}>
               <Accordion.Header>CHAT ONLINE "TECLEGRAM" <i style={{ marginLeft: '10px' }} className="bi bi-telegram"></i> </Accordion.Header>
               <Accordion.Body className='bodyScroll3'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+
+                <Container>
+                  <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <MDBCard className='cardContent animate__animated animate__slideInDown'>
+                      <h4> Description: </h4>
+                      <p className='Text'> In this project we developed a web application that allows sending text,
+                        images, video and audio messages in real time, similar to the process used by telegram.
+                        The idea of this project is to know the functioning of social networks and their process for sending information
+                        from one point to another. </p>
+                      <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" style={{ width: '15%', height: '15%' }} className='imgGit' />
+                        <a href="https://github.com/IanVargas1/teclegram.git" className='linkGit' target="_blank">Go to code <span><i style={{ color: '' }} className="bi bi-box-arrow-up-right"> </i> </span></a>
+                      </Container>
+                    </MDBCard>
+                  </Container>
+                  <br />
+                  <h5> Implemented technologies: </h5>
+                  <hr style={{ margin: '0 0px' }} />
+                  <Container className='tecnologies'>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                  </Container>
+                </Container>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="4" onClick={handleAccordionToggle}>
               <Accordion.Header>TECOSTORE <i style={{ marginLeft: '10px' }} className="bi bi-cart-check-fill"></i> </Accordion.Header>
               <Accordion.Body className='bodyScroll4'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
-                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+                <Container>
+                  <Container style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <MDBCard className='cardContent animate__animated animate__slideInDown'>
+                      <h4> Description: </h4>
+                      <p className='Text'>In this project we created a catalog of biodegradable products,
+                        the main idea was to create an online store where users could view and
+                        consult the products offered by companies that support the environment.
+                      </p>
+                      <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                        <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" style={{ width: '15%', height: '15%' }} className='imgGit' />
+                        <a href="https://github.com/JeankUS/FrontendTECOstoreP.git" className='linkGit' target="_blank">Go to code <span><i style={{ color: '' }} className="bi bi-box-arrow-up-right"> </i> </span></a>
+                      </Container>
+                    </MDBCard>
+                  </Container>
+                  <br />
+                  <br />
+                  <h4> logo TECOSTORE: </h4>
+                  <br />
+                  <hr style={{ margin: '0 0px' }} />
+                  <br />
+                  <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} className='contenedor1'>
+                    <img src={imgTecStore} alt="" style={{ width: '30%', height: '30%' }} className='' />
+                    {/* <p className='Text'>Below is an image of the layer diagram in more detail.</p> */}
+                  </Container>
+
+                  <br />
+                  <h5> Implemented technologies: </h5>
+                  <hr style={{ margin: '0 0px' }} />
+                  <Container className='tecnologies'>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                    <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                    <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" style={{ width: '10%', height: '10%' }} className='imgUsed' />
+                  </Container>
+
+                </Container>
               </Accordion.Body>
             </Accordion.Item>
 

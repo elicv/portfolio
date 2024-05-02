@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .contenedor{
+    .contenedor0{
         flex-direction: row !important
     }
     .space{
@@ -25,3 +25,7 @@ li{
     background-color: black;
     /* background-image: url(""); */
 }
+
+.NavBarPrincipal {
+    border-bottom:  solid 2px #198754 !important;
+}   
