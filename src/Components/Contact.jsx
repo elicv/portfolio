@@ -33,7 +33,7 @@ export default function Contact() {
         </Container>
       </div>
       <div className='FormContainer'>
-        <Container style={{ display: 'flex', justifyContent: 'center', alignItems: '', padding: '40px', flexDirection: 'row', gap: '40px' }}>
+        <Container style={{ display: 'flex', justifyContent: 'center', alignItems: '', padding: '40px', flexDirection: 'column', gap: '40px' }} className='ContenedorEmail'>
           <Container className='formEmail'>
             <Form ref={refForm} action='' onSubmit={handleSummit}>
               <Form.Group className="mb-3" controlId="formBasicEmail">

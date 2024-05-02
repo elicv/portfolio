@@ -3,6 +3,12 @@
     /* background-image: url(""); */
 }
 
+@media screen and (min-width: 1000px) {
+    .ContenedorEmail{
+        flex-direction: row !important;    
+    }
+}
+
 
 .imgFondo {
     background-image: url("https://img3.wallspic.com/crops/6/0/3/3/6/163306/163306-piton-lenguaje_de_programacion-data-funcion_anonima-lenguaje_de_programacion_de_alto_nivel-3840x2160.png"); 
@@ -27,7 +33,6 @@ h1, h6{
 .FormContainer{
     background-color: lightgray;
     border-top: solid 5px rgb(25, 135, 84);
-    height: 100vh;
 }
 
 
