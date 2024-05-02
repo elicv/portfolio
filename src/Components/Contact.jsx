@@ -19,7 +19,7 @@ export default function Contact() {
   const [buttonDisabled, setButtonDisabled] = useState(false);
 
   const handleSummit = (event) => {
-    event.preventDefault(); 
+    event.preventDefault();
     setSpinAlert(true)
     setButtonDisabled(true);
     const serviceId = 'service_9h6xx25';
@@ -32,8 +32,8 @@ export default function Contact() {
         setSpinAlert(false)
         setButtonDisabled(false);
         setTimeout(() => {
-           setShowAlert1(false)
-           }, 3000);
+          setShowAlert1(false)
+        }, 3000);
       }
     ).catch((error) => {
       console.error(error)
@@ -41,8 +41,8 @@ export default function Contact() {
       setSpinAlert(false)
       setButtonDisabled(false);
       setTimeout(() => {
-         setShowAlert2(false)
-         }, 3000);
+        setShowAlert2(false)
+      }, 3000);
     })
   }
 
@@ -75,7 +75,7 @@ export default function Contact() {
                 <Form.Label>MESSAGE:</Form.Label>
                 <Form.Control name='message' as="textarea" aria-label="With textarea" required />
               </Form.Group>
-              <Button variant="primary" type="submit" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'rgb(16, 89, 55)', border: 'solid 1px green' }} disabled = {buttonDisabled}>
+              <Button variant="primary" type="submit" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', background: 'rgb(16, 89, 55)', border: 'solid 1px green' }} disabled={buttonDisabled}>
                 Submit
                 {spinAlert && (
                   <Spinner animation="border" role="status" className='spinner'>
@@ -86,23 +86,6 @@ export default function Contact() {
           </Container>
 
           <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '40px', flexDirection: 'column', gap: '10px' }} className='formEmail1'>
-
-
-            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
-              <i className="bi bi-whatsapp" style={{ fontSize: 40, color: '#06bc06' }}></i>
-              <h6 style={{ color: 'darkgreen' }}> 87679841 </h6>
-            </Container>
-
-            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
-              <i className="bi bi-facebook" style={{ fontSize: 40, color: '#0866ff' }}></i>
-              <h6><a style={{ color: 'darkgreen' }} href='https://www.facebook.com/elison.corralesvargas'> facebook.com</a>  </h6>
-            </Container>
-            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
-              <i className="bi bi-linkedin" style={{ fontSize: 40, color: '#0a66c2' }}></i>
-              <h6><a style={{ color: 'darkgreen' }} href='linkedin.com/in/elison-corrales-vargas-216704265'> linkedin.com</a>  </h6>
-            </Container>
-
-
             {showAlert1 && (
               <MDBCard style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'transparent', border: 'none' }} className='animate__animated animate__zoomIn'>
                 <Alert key='success' variant='success'>
@@ -118,6 +101,19 @@ export default function Contact() {
               </MDBCard>
             )}
 
+            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
+              <i className="bi bi-whatsapp" style={{ fontSize: 40, color: '#06bc06' }}></i>
+              <h6 style={{ color: 'darkgreen' }}> 87679841 </h6>
+            </Container>
+
+            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
+              <i className="bi bi-facebook" style={{ fontSize: 40, color: '#0866ff' }}></i>
+              <h6><a style={{ color: 'darkgreen' }} href='https://www.facebook.com/elison.corralesvargas'> facebook.com</a>  </h6>
+            </Container>
+            <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
+              <i className="bi bi-linkedin" style={{ fontSize: 40, color: '#0a66c2' }}></i>
+              <h6><a style={{ color: 'darkgreen' }} href='linkedin.com/in/elison-corrales-vargas-216704265'> linkedin.com</a>  </h6>
+            </Container>
           </Container>
         </Container>
 
