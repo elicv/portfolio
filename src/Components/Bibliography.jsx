@@ -10,7 +10,7 @@ export default function Bibliography() {
 
   return (
     <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo'>
-      <Container fluid className='container'>
+      <Container  className='container'>
         <Card style={{ border: 'solid 1px', borderColor: 'gray' }}>
           <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor0'>
             <Card.Img variant="" src={img} style={{ width: '50%', height: '50%', margin: '20px' }} className='imgBibiography' />
@@ -31,7 +31,7 @@ export default function Bibliography() {
             </Card.Body>
           </Container>
           <hr style={{ margin: '0 10px' }} />
-          <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background: '' }} className='contenedor0 space'>
+          <Container  style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background: '' }} className='contenedor0 space'>
             <div style={{ marginBottom: '20px' }}>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Hobbies</Card.Title>
               <Card.Text>

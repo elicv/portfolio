@@ -7,6 +7,9 @@
     .ContenedorEmail{
         flex-direction: row !important;    
     }
+    .vr{
+        visibility: visible !important;
+    }
 }
 
 .ContenedorEmail{
@@ -22,7 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-    height: 30vh; /* Ajusta la altura según el viewport */
+    height: 25vh; /* Ajusta la altura según el viewport */
     opacity: 0.2;
 }
 

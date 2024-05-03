@@ -35,7 +35,7 @@ h4 , h5 {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
     .contenedor1 {
         flex-direction: row !important
     }

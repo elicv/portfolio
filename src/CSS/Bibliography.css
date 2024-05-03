@@ -24,6 +24,12 @@ li{
 .fondo{
     background-color: black;
     /* background-image: url(""); */
+    /* background-image: url("../Assets/Font.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: none; */
 }
 
 .NavBarPrincipal {
