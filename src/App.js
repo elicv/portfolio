@@ -14,7 +14,7 @@ import 'animate.css/animate.min.css';
 
 function App() {
 
-  const [activeTab, setActiveTab] = useState('Education');
+  const [activeTab, setActiveTab] = useState('Bibliography');
 
   return (
     <div className="">
