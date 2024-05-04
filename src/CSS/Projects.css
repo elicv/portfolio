@@ -21,11 +21,7 @@
     border: solid 2px black !important;
 }
 
-.projectCard {
-    background: none !important;
-    width: 90% !important;
 
-}
 
 .accordion-item {
     border-radius: 8px !important;
@@ -62,8 +58,17 @@ h4 , h5 {
         width: 5% !important;
         height: 5% !important;
     }
+
+    .projectCard {
+        background: none !important;
+        width: 90% !important;
+    
+    }
 }
 
+.projectCard {
+    background: none !important;
+}
 
 .bodyScroll0,.bodyScroll1, .bodyScroll2, .bodyScroll3, .bodyScroll4 {
     max-height: 75vh !important;
