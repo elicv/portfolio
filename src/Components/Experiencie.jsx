@@ -13,7 +13,7 @@ export default function Experiencie() {
     <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondoExperience'>
 
       <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} className=''>
-        <Card style={{ width: '80%', padding: '40px' }} className='card1'>
+        <Card style={{ width: '100%', padding: '40px' }} className='card1'>
           <Container className='ContenedorHeader'>
             <Container className='contenedorImagen'>
               <Card.Img variant="" src={imgwork} style={{ width : '100%', height:'100%'}} className='imgwork' />
