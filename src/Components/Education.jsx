@@ -20,16 +20,16 @@ export default function Education() {
   }
 
   return (
-    <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondoEducation'>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondoEducation'>
       <Container className='BodyEducation'>
         <Carousel onSelect={change}>
-          <Carousel.Item>
+          <Carousel.Item className='carouselItem'>
             <Container style={{ display: 'flex', flexDirection: '', justifyContent: '', alignItems: '' }} className=''>
               <Card style={{ display: 'flex', flexDirection: 'column', justifyContent: '', alignItems: '', background: '', border: 'none' }} className='cardContent cardEducation'>
-                <Container style={{ display: 'flex', flexDirection: '', justifyContent: 'center', alignItems: '' }}>
-                  <Card.Img variant="" src={imgGraduation} style={{ width: '65%', height: '85%', margin: '20px' }} className='' />
+                <Container style={{ display: 'flex', flexDirection: '', justifyContent: 'center', alignItems: '' }} className='ContendorimgEducation'>
+                  <Card.Img variant="" src={imgGraduation} className='imgTittle' />
                 </Container>
-                <div className="vr" style={{height: '', visibility:'hidden  '}}></div>
+                <div className="vr" style={{height: '80%', visibility:'hidden  '}}></div>
                 <Container className='contenedor1'>
                   <hr style={{ margin: '0 0px', visibility:"visible" }}  className='line'/>
                   <br />
@@ -50,13 +50,13 @@ export default function Education() {
             </Container>
           </Carousel.Item>
 
-          <Carousel.Item>
+          <Carousel.Item className='carouselItem'>
             <Container style={{ display: 'flex', flexDirection: '', justifyContent: '', alignItems: '' }} className=''>
               <Card style={{ display: 'flex', flexDirection: 'column', justifyContent: '', alignItems: '', background: '', border: 'none' }} className='cardContent cardEducation'>
-                <Container style={{ display: 'flex', flexDirection: '', justifyContent: 'center', alignItems: '' }}>
+                <Container style={{ display: 'flex', flexDirection: '', justifyContent: 'center', alignItems: '' }} className='ContendorimgEducation'>
                   <Card.Img variant="" src="https://cdn-icons-png.flaticon.com/512/1164/1164695.png" className='imgTittle' />
                 </Container>
-                <div className="vr" style={{height: '', visibility:'hidden  '}}></div>
+                <div className="vr" style={{height: '80%', visibility:'hidden  '}}></div>
                 <Container  className='contenedor1'>
                   <hr style={{ margin: '0 0px', visibility:"visible" }}  className='line'/>
                   <br />

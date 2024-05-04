@@ -10,7 +10,7 @@ import '../CSS/Skills.css'
 
 export default function Skills() {
   return (
-    <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo1'>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo1'>
       <Container fluid className='container'>
 
         <Row xs={1} sm={2} md={3}>

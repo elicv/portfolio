@@ -1,4 +1,75 @@
-.fondo{
+.fondoExperience{
     background-color: black !important;
-    /* background-image: url(""); */
+/*   
+    background-image: url("../Assets/Font.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: none; */
+}
+
+.card1{
+    background-color: rgb(255, 255, 255) !important;
+}
+
+@media screen and (min-width: 1000px) { 
+
+    .contenedorImagen{
+        width: 35% !important;
+        height: 35% !important;
+    }
+    
+    .ContenedorHeader{
+        flex-direction: row !important;
+    }
+    .imgwork{
+        height: 100% !important;
+        width: 100% !important;
+    }
+
+}
+
+.contenedorImagen{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 40px;
+}
+
+
+.imgwork{
+    border-radius: 50% !important;
+}
+
+
+.AbrirResume{
+    background-color: rgb(19, 121, 73) !important;
+    border: none !important;
+    font-family:Courier;
+}
+
+.text{
+    font-family:  Courier;
+    font-weight: 800 !important;
+}
+
+
+.text1{
+    font-family:  Courier;
+}
+
+
+.ContenedorHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text2{
+    font-family:  Courier;
+    font-size: 25px;
+    text-align: center;
 }

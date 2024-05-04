@@ -23,6 +23,8 @@
 
 .projectCard {
     background: none !important;
+    width: 90% !important;
+
 }
 
 .accordion-item {
@@ -133,3 +135,9 @@ body::-webkit-scrollbar {
     box-shadow: 0.3em 0.3em 1em rgba(80, 79, 79, 0.6);
 }
 
+
+.contenedorProjects{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

@@ -9,7 +9,7 @@ import TextStyle from './TextStyle';
 export default function Bibliography() {
 
   return (
-    <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo'>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo'>
       <Container  className='container'>
         <Card style={{ border: 'solid 1px', borderColor: 'gray' }}>
           <Container fluid style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor0'>

@@ -8,14 +8,14 @@ export default function Header({ activeTab, onTabChange }) {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754', position:''}} className='NavBarPrincipal'>
             <Container>
-                <img
+                {/* <img
                     src={img}
                     alt="Imagen de perfil"
                     style={{ width: '30px', height: '30px', borderRadius: '50%', margin: '10px' }}
-                />
+                /> */}
                 
                 <Navbar.Brand href="">
-                    Elison Corrales Vargas
+                    Elison Corrales | Software Engineer
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

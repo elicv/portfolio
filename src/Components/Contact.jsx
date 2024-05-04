@@ -48,7 +48,7 @@ export default function Contact() {
   }
 
   return (
-    <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center' }} className='fondo2'>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center' }} className='fondo2'>
 
       <div style={{ height: '25vh' }}>
         <div className='imgFondo' style={{ padding: '20px' }}> </div>

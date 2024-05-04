@@ -28,9 +28,9 @@ export default function Projects() {
     }
   };
   return (
-    <div style={{ background: '', minHeight: '90.9vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo2'>
-      <Container fluid className=''>
-        <Card style={{ width: '' }} className='projectCard'>
+    <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center', padding: '20px' }} className='fondo2'>
+      <Container  className='contenedorProjects'>
+        <Card className='projectCard'>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0" onClick={handleAccordionToggle}>
               <Accordion.Header>LICEO CAMAQUI <i style={{ marginLeft: '10px' }} className="bi bi-mortarboard-fill"></i></Accordion.Header>

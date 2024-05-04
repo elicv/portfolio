@@ -25,6 +25,7 @@
 }
 
 
+
 @media screen and (min-width: 1000px) {
     .cardEducation {
         flex-direction: row !important;
@@ -32,11 +33,25 @@
     .line{
         visibility: hidden !important
     }
+    .ContendorimgEducation{
+        height: 85vh;
+    }
+
     .imgTittle{
         width: 70% !important;
-        height: 73vh !important;
-        padding: 20px !important;
+        height: 80%;
     }
+    .carouselItem{
+        overflow-y: auto;
+        height: 85vh;
+    }
+    
+    
+    .carouselItem::-webkit-scrollbar {
+        display: none !important;
+        /* Oculta la barra de desplazamiento en navegadores webkit (como Chrome y Safari) */
+    }
+   
 }
 
 .AbrirPDF{
@@ -54,4 +69,6 @@
     flex-direction: column !important;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
+
