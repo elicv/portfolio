@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1a589961.css",
-    "main.js": "/portfolio/static/js/main.b99a1dd2.js",
+    "main.css": "/portfolio/static/css/main.516b2d9c.css",
+    "main.js": "/portfolio/static/js/main.9317b745.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/ResumeElison.jpg": "/portfolio/static/media/ResumeElison.32c10d9acd8e45b6dc80.jpg",
     "static/media/AverageTC.pdf": "/portfolio/static/media/AverageTC.a9505494cea6b9cb6f77.pdf",
     "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/GIS.png": "/portfolio/static/media/GIS.7cd186ede15f1fae0ad3.png",
     "static/media/PerfilWork.jpg": "/portfolio/static/media/PerfilWork.d9469c85988f84e27799.jpg",
-    "static/media/Resume.jpg": "/portfolio/static/media/Resume.496242565440c971f002.jpg",
     "static/media/TITLE.pdf": "/portfolio/static/media/TITLE.fa8e60e37903b65304da.pdf",
     "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/Componentes.png": "/portfolio/static/media/Componentes.e3e00371c97fad75ce66.png",
@@ -15,12 +15,12 @@
     "static/media/PhotoGraduation.jpg": "/portfolio/static/media/PhotoGraduation.7bdf04c16dc50b77d9fd.jpg",
     "static/media/LogoTecostore.png": "/portfolio/static/media/LogoTecostore.488add12c220e8d3a907.png",
     "index.html": "/portfolio/index.html",
-    "main.1a589961.css.map": "/portfolio/static/css/main.1a589961.css.map",
-    "main.b99a1dd2.js.map": "/portfolio/static/js/main.b99a1dd2.js.map",
+    "main.516b2d9c.css.map": "/portfolio/static/css/main.516b2d9c.css.map",
+    "main.9317b745.js.map": "/portfolio/static/js/main.9317b745.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a589961.css",
-    "static/js/main.b99a1dd2.js"
+    "static/css/main.516b2d9c.css",
+    "static/js/main.9317b745.js"
   ]
 }
