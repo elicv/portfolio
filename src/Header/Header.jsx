@@ -4,10 +4,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import img from '../Assets/PerfilPhoto.jpg';
 
+import '../CSS/Header.css'
+
 export default function Header({ activeTab, onTabChange }) {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{ borderBottom: 'solid 2px #198754', position:''}} className='NavBarPrincipal'>
-            <Container>
+        <Navbar className='NavBarPrincipal' 
+        expand="lg"
+        variant="dark"
+        >
+            <Container className='containerNavbar'>
                 {/* <img
                     src={img}
                     alt="Imagen de perfil"
@@ -15,28 +20,28 @@ export default function Header({ activeTab, onTabChange }) {
                 /> */}
                 
                 <Navbar.Brand href="">
-                    Elison Corrales | Software Engineer
+                <strong> SOFTWARE ENGINEER </strong>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link onClick={() => onTabChange('Bibliography')} active={activeTab === 'Bibliography'}>
-                            Bibliography
+                            BIBLIOGRAPHY
                         </Nav.Link>
                         <Nav.Link onClick={() => onTabChange('Skills')} active={activeTab === 'Skills'}>
-                            Skills
+                            SKILLS
                         </Nav.Link>
-                        <Nav.Link onClick={() => onTabChange('Projects')} active={activeTab === 'Projects'}>
-                            Projects
-                        </Nav.Link>
+                        {/* <Nav.Link onClick={() => onTabChange('Projects')} active={activeTab === 'Projects'}>
+                            PROJECTS
+                        </Nav.Link> */}
                         <Nav.Link onClick={() => onTabChange('Education')} active={activeTab === 'Education'}>
-                            Education
+                            EDUCATION
                         </Nav.Link>
                         <Nav.Link onClick={() => onTabChange('Work Experience')} active={activeTab === 'Work Experience'}>
-                            Work Experience
+                            WORK EXPERIENCE
                         </Nav.Link>
                         <Nav.Link onClick={() => onTabChange('Contact')} active={activeTab === 'Contact'}>
-                            Contact me
+                            CONTACT ME
                         </Nav.Link>
                     </Nav>
                     

@@ -27,7 +27,7 @@ export default function Education() {
             <Container style={{ display: 'flex', flexDirection: '', justifyContent: '', alignItems: '' }} className=''>
               <Card style={{ display: 'flex', flexDirection: 'column', justifyContent: '', alignItems: '', background: '', border: 'none' }} className='cardContent cardEducation'>
                 <Container style={{ display: 'flex', flexDirection: '', justifyContent: 'center', alignItems: '' }} className='ContendorimgEducation'>
-                  <Card.Img variant="" src={imgGraduation} className='imgTittle' />
+                  <Card.Img variant="" src={'https://iconape.com/wp-content/files/fi/192485/png/192485.png'} className='imgTittle' />
                 </Container>
                 <div className="vr" style={{height: '80%', visibility:'hidden  '}}></div>
                 <Container className='contenedor1'>

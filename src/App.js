@@ -22,7 +22,7 @@ function App() {
       
         { activeTab === 'Bibliography' && <Bibliography />}
         { activeTab === 'Skills' && <Skills />}
-        { activeTab === 'Projects' && <Projects />}
+        {/* { activeTab === 'Projects' && <Projects />} */}
         { activeTab === 'Education' && <Education />}
         { activeTab === 'Work Experience' && <Experiencie />}
         { activeTab === 'Contact' && <Contact />}

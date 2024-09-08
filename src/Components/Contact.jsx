@@ -50,13 +50,13 @@ export default function Contact() {
   return (
     <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center' }} className='fondo2'>
 
-      <div style={{ height: '25vh' }}>
+      {/* <div style={{ height: '25vh' }}>
         <div className='imgFondo' style={{ padding: '20px' }}> </div>
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '40px', flexDirection: 'column' }} className='contenedorContact'>
           <h1 className='textContact'> Contact me</h1>
           <h6 className='textContact1'>It works on my computer !!!</h6>
         </Container>
-      </div>
+      </div> */}
       <div className='FormContainer'>
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '20px' }} className='ContenedorEmail'>
           <Container className='formEmail'>
@@ -85,7 +85,7 @@ export default function Contact() {
               </Button>
             </Form>
           </Container>
-          <div className="vr" style={{height: '', visibility:'hidden  '}}></div>
+          <div className="vr" style={{background: 'green', width:'5px',height: '', visibility:'hidden'}}></div>
           <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '40px', flexDirection: 'column', gap: '10px' }} className='formEmail1'>
             {showAlert1 && (
               <MDBCard style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', background: 'transparent', border: 'none' }} className='animate__animated animate__zoomIn'>
@@ -101,7 +101,7 @@ export default function Contact() {
                 </Alert>
               </MDBCard>
             )}
-            <Container style={{fontFamily:''}}> <TextStyle type='javaScript' typeText='You can contact me through any of the following social networks. Thank you for your interest I will be happy to contact you.'> </TextStyle> </Container>
+            <Container style={{fontFamily:''}}> <TextStyle type='python' typeText='You can contact me through any of the following social networks. Thank you for your interest I will be happy to contact you.'> </TextStyle> </Container>
             <Container style={{ marginTop: '', display: 'flex', justifyContent: '', alignItems: 'center', padding: '', flexDirection: 'row', gap: '10px' }} className='animate__animated animate__zoomIn'>
               <i className="bi bi-whatsapp" style={{ fontSize: 40, color: '#06bc06' }}></i>
               <h6 style={{ color: 'darkgreen' }}> <a style={{ color: 'darkgreen', textDecoration:'none' }} href='https://wa.me/50687679841'> WhastApp</a></h6>

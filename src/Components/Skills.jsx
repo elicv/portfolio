@@ -28,6 +28,19 @@ export default function Skills() {
             </Card>
           </Col>
           <Col className="my-3">
+            <Card style={{ border: 'solid 0px', borderColor: 'gray', width: '', background:'transparent' }}>
+              <MDBCard style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor animate__animated animate__zoomIn'>
+                <Card.Img variant="" src="https://partner.zoom.us/wp-content/uploads/2022/12/2022_Zoom-AWS_Lockup_RGB-1-e1672857797889-1024x760.png" style={{ width: '40%', height: '40%', margin: '20px' }} className='imgSkill' />
+                <Card.Body>
+                  <Card.Title>Amazon Web Services</Card.Title>
+                  <Card.Text>
+                  I have worked implementing aws services such as lambda, apigateway, secrect manager, SES and more
+                  </Card.Text>
+                </Card.Body>
+              </MDBCard>
+            </Card>
+          </Col>
+          <Col className="my-3">
             <Card style={{ border: 'solid 0px', borderColor: 'gray', width: '',  background:'transparent'  }}>
               <MDBCard  style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor animate__animated animate__zoomIn'>
                 <Card.Img variant="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/1200px-Logo_C_sharp.svg.png" style={{ width: '40%', height: '40%', margin: '20px' }} className='imgSkill'/>
@@ -43,7 +56,7 @@ export default function Skills() {
           <Col className="my-3">
             <Card style={{ border: 'solid 0px', borderColor: 'gray', width: '',  background:'transparent'  }}>
               <MDBCard  style={{ display: 'flex', flexDirection: 'column', alignItems: '' }} className='contenedor animate__animated animate__zoomIn'>
-                <Card.Img variant="" src="https://gdimg.gmarket.co.kr/1864442788/still/400?ver=1597372311" style={{ width: '40%', height: '40%', margin: '20px' }} className='imgSkill' />
+                <Card.Img variant="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrmNq7cnlK_Yfc65YRgTYzqc8LvPAYp9XPzA&s" style={{ width: '40%', height: '40%', margin: '20px' }} className='imgSkill' />
                 <Card.Body>
                   <Card.Title>DevExtreme</Card.Title>
                   <Card.Text>
