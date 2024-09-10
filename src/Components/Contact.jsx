@@ -49,7 +49,7 @@ export default function Contact() {
 
   return (
     <div style={{ background: '', minHeight: '100vh', display: '', alignItems: 'center', justifyContent: 'center' }} className='fondo2'>
-
+    
       {/* <div style={{ height: '25vh' }}>
         <div className='imgFondo' style={{ padding: '20px' }}> </div>
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '40px', flexDirection: 'column' }} className='contenedorContact'>
@@ -57,6 +57,7 @@ export default function Contact() {
           <h6 className='textContact1'>It works on my computer !!!</h6>
         </Container>
       </div> */}
+
       <div className='FormContainer'>
         <Container style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', gap: '20px' }} className='ContenedorEmail'>
           <Container className='formEmail'>

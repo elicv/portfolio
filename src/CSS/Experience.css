@@ -84,3 +84,10 @@ li{
     font-size: 16px !important; 
     font-weight: 400 !important;
 }
+
+@media screen and (max-width: 400px) {
+    .contenedorh1Experience{
+        flex-direction: column;
+    }
+
+}
