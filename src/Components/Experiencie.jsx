@@ -32,22 +32,20 @@ export default function Experiencie() {
                 <img 
                   src='https://www.construplaza.com/Content/Images/logo.webp' // Ruta al archivo de imagen
                   alt="Logo"
-                  style={{ width: '50px', height: '50px' }} // Ajusta el tamaño del logo según sea necesario
+                  style={{ width: '60px', height: '60px' }} // Ajusta el tamaño del logo según sea necesario
                 />
                 <Card.Title className='text'>Construplaza S.A - Ulloa, Heredia - Software Engineer | June 2024 – Present</Card.Title>
               </div>
               <Card.Text className='text1'>
-              My job consists of providing support and systems development at CEDI Construplaza, which is a main distribution warehouse for other stores.
-              I am currently carrying out projects such as:
+              I work at Construplaza, a hardware and construction materials sales company,
+               where I am in charge of software maintenance and development. I have worked on projects within the company such as:
                 <ul>
                   <li>Implementation of a Vmeasure measurement machine with AWS Webhook Lambdas.</li>
-                  <li>Lambdas development for SQL query</li>
-                  <li>Maintenance of Century ESL electronic labels</li>
-                  <li>Creation and deployment of AWS lambdas CLI interface with YAML</li>
-                  <li>General support for computers, printers, internet connections, handhelds and more.</li>
-                  <li>Knowledge of Warehouse Management Systems for inventory control</li>
+                  <li>Development of a mobile application for the maintenance of electronic labels at Construplaza points of sale, combining technologies such as AWS and Frameworks such as react native.</li>
+                  <li>Creation and deployment of AWS lambdas CLI interface with YAML.</li>
+                  <li>Development of mobile applications in languages ​​such as react native, react, express, typescript, node js.</li>
+                  <li>Knowledge of Warehouse Management Systems for inventory control.</li>
                 </ul>
-        
               </Card.Text>
             </Container>
             
@@ -57,9 +55,9 @@ export default function Experiencie() {
             <Container>
               <div className='contenedorh1Experience' style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img
-                  src='https://media.licdn.com/dms/image/v2/C560BAQFV99S7xnfksg/company-logo_200_200/company-logo_200_200/0/1630647649603/blackvector_logo?e=1733961600&v=beta&t=WAVviWUAOrxDBJE_svTM-vPYDzSwhGldf7BeyFEeL74' // Ruta al archivo de imagen
+                  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk59M_hxPgMqB4_Fr5YnYKkE15uOxeW8IkYA&s' // Ruta al archivo de imagen
                   alt="Logo"
-                  style={{ width: '50px', height: '50px' }} // Ajusta el tamaño del logo según sea necesario
+                  style={{ width: '60px', height: '60px' }} // Ajusta el tamaño del logo según sea necesario
                 />
                 <Card.Title className='text'>Blackvector - San Jose, Escazú - Software Engineer | January 2024 – April 2024</Card.Title>
               </div>

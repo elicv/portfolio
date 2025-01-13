@@ -34,18 +34,6 @@ export default function Bibliography() {
           <hr style={{ margin: '0 10px' }} />
           <Container  style={{ display: 'flex', flexDirection: 'column', alignItems: '', padding: '30px', background: '' }} className='contenedor0 space'>
             <div style={{ marginBottom: '20px' }}>
-              <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Hobbies</Card.Title>
-              <Card.Text>
-
-                <li>Go fishing</li>
-                <li>Playing video games</li>
-                <li>Play guitar</li>
-                <li>Drawing</li>
-                <li>Camping</li>
-
-              </Card.Text>
-            </div>
-            <div style={{ marginBottom: '20px' }}>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Interest</Card.Title>
               <Card.Text>
 
@@ -59,11 +47,20 @@ export default function Bibliography() {
             <div>
               <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Strengths</Card.Title>
               <Card.Text>
-
                 <li>Friendly</li>
                 <li>Great learning capacity</li>
                 <li>Never give up</li>
-
+                <li>Team Work</li>
+              </Card.Text>
+            </div>
+            <div style={{ marginBottom: '20px' }}>
+              <Card.Title style={{ color: '#198754', fontFamily: 'Courier', fontWeight: '800' }}>Hobbies</Card.Title>
+              <Card.Text>
+                <li>Go fishing</li>
+                <li>Playing video games</li>
+                <li>Play guitar</li>
+                <li>Drawing</li>
+                <li>Camping</li>
               </Card.Text>
             </div>
           </Container>
